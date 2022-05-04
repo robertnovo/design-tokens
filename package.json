@@ -1,0 +1,27 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:styles": "style-dictionary build",
+    "build:foo": "token-transformer data/tokens.json tokens/build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertnovo/design-tokens.git"
+  },
+  "author": "Robert Novo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertnovo/design-tokens/issues"
+  },
+  "homepage": "https://github.com/robertnovo/design-tokens#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.0"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.20"
+  }
+}
